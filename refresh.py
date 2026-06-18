@@ -296,7 +296,7 @@ def render(data: dict) -> str:
         labels.append(row["d"]); cumvals.append(round(cum, 2))
         dayvals.append(fnum(row["pnl_c"]))
 
-    stamp = datetime.now().astimezone().strftime("%Y-%m-%d %H:%M %Z")
+    stamp = datetime.now().astimezone().strftime("%b %-d, %Y · %-I:%M %p %Z")
 
     return TEMPLATE.format(
         first=o["first_day"], last=o["last_day"], stamp=stamp,
