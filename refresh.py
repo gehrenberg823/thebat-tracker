@@ -34,6 +34,7 @@ MARKET_NAMES = {
     "KXMLBTB": "Total Bases",
     "KXMLBHIT": "Total Hits",
     "KXMLBKS": "Strikeouts (pitcher)",
+    "KXMLBOUTS": "Pitcher Outs",
     "KXMLBTEAMTOTAL": "Team Total Runs",
     "KXMLBTOTAL": "Game Total Runs",
     "KXMLBSPREAD": "Run Line",
